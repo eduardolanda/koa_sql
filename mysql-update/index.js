@@ -15,7 +15,7 @@ app.use(async ctx => {
 
 async function getName(watch) {
   try {
-    const itemData = await pool.query(`UPDATE movieList SET movieWatched = "${watch}"" WHERE movieID = 2`)
+    const itemData = await pool.query(`UPDATE movieList SET movieWatched = ${watch} WHERE movieID = 2   `)
     return itemData
   } catch (error) {
     console.log(error)
