@@ -2,9 +2,9 @@
   "version": 2,
   "name": "wmdd-get-w5",
   "env": {
-    "DBHOST": "test.ckpaeyr1zhv5.us-east-1.rds.amazonaws.com",
+    "DBHOST": "endpoint-revoved",
     "DBPORT": "3306",
-    "DBUSER": "test",
+    "DBUSER": "user",
     "DBPASSWORD": "password",
     "DBNAME": "movies"
   },
